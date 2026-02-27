@@ -1,0 +1,11 @@
+<!-- LinkedIn Open Graph -->
+<meta property="og:url" content="https://muharemhuskic.dev/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Muharem Huskić | AI Engineer & Full-Stack Developer">
+<meta property="og:description" content="Building intelligent web applications: AI modeling, backend systems, and frontend interfaces. Journey toward Senior AI Engineer.">
+<meta property="og:image" content="https://muharemhuskic.dev/images/linkedin-banner.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Muharem Huskić — AI Engineer with code and neural network visualizations">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Muharem Huskić">
