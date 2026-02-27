@@ -1,0 +1,5 @@
+ Pro Tips for Launch:
+Use Vercel or Netlify for free hosting + custom domain (muharemhuskic.dev)
+Add Google Analytics + Search Console
+Submit sitemap.xml (generate via Screaming Frog)
+Write 3 blog posts first (e.g., “My First Production AI Model”, “Why Full-Stack Matters for AI Engineers”, “Learning PyTorch in 2026”)
