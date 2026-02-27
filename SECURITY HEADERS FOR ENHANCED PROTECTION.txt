@@ -1,0 +1,19 @@
+# Basic Security Headers
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+# Content Security Policy (strict but allows inline styles/scripts for simplicity)
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com;
+
+# Strict Transport Security
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+# Additional Security Headers
+X-Permitted-Cross-Domain-Policies: none
+Expect-CT: enforce, max-age=30
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
