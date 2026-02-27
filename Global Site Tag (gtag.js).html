@@ -1,0 +1,30 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  // Replace 'G-XXXXXXXXXX' with your actual GA4 Measurement ID
+  gtag('config', 'G-XXXXXXXXXX');
+
+  // Enhanced e-commerce tracking (optional)
+  gtag('config', 'G-XXXXXXXXXX', {
+    'custom_map': {'dimension1': 'department'}
+  });
+
+  // Event tracking helper function
+  function trackEvent(eventName, eventParams = {}) {
+    gtag('event', eventName, eventParams);
+  }
+
+  // Track outbound link clicks
+  document.addEventListener('click', function(event) {
+    if (event.target.tagName === 'A' && event.target.href.startsWith('http') && !event.target.href.includes(window.location.hostname)) {
+      trackEvent('outbound_click', {
+        'link_url': event.target.href,
+        'link_text': event.target.textContent.trim()
+      });
+    }
+  });
+</script>
