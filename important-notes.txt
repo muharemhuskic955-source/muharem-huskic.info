@@ -1,0 +1,10 @@
+Replace placeholder content:
+Images in images/ folder
+Text in HTML files
+Meta tags for SEO
+Social links
+Deploy to Netlify:
+Push to GitHub
+Connect repo in Netlify
+Set publish directory to ./
+Done!
