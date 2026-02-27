@@ -1,0 +1,23 @@
+🤖 **AI Engineer & Full-Stack Developer | Building Intelligent Web Applications**
+
+I'm Muharem Huskić, a 34-year-old technologist transitioning from full-stack web development to senior AI engineering. My mission: bridge the gap between cutting-edge machine learning models and real-world user experiences.
+
+🎯 **What I Do:**
+• Design, train, and deploy production-ready AI models (Python, TensorFlow, PyTorch)
+• Build full-stack applications that integrate AI capabilities seamlessly
+• Focus on ethical AI, scalability, and user-centric design
+• Transform business problems into intelligent solutions
+
+💼 **Current Journey:**
+Working towards becoming a Senior AI Engineer by combining my web development background with advanced ML engineering skills. I specialize in taking models from Jupyter notebooks to production APIs, ensuring they're reliable, monitored, and maintainable.
+
+🚀 **Recent Focus Areas:**
+- Natural Language Processing (BERT, transformers, LLMs)
+- Computer Vision (YOLO, CNNs, real-time inference)
+- MLOps (Docker, Kubernetes, cloud deployment)
+- Full-stack integration (React, FastAPI, cloud services)
+
+🌐 **Portfolio:** muharemhuskic.dev
+📚 **Currently Learning:** Advanced NLP architectures and responsible AI frameworks
+
+Open to collaboration on AI projects, consulting opportunities, or discussions about the future of intelligent systems. Let's connect and build something impactful together!
