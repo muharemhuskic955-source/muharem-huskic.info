@@ -1,0 +1,9 @@
+
+---
+
+## 🚀 Quick Setup
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/muharemhuskic/portfolio.git
+   cd portfolio
