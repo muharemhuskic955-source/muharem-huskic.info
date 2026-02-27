@@ -1,0 +1,86 @@
+
+---
+
+## 📝 3. SEO-OPTIMIZED BLOG STARTER (Static Markdown)
+
+### File: `blog/index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI & Web Dev Insights | Muharem Huskić's Blog</title>
+  <meta name="description" content="Thoughts on AI engineering, full-stack development, and career growth. Written by Muharem Huskić — aspiring Senior AI Engineer." />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <a href="/" class="logo">MH<span>.</span></a>
+      <nav><a href="/">Home</a> • <a href="/about">About</a> • <a href="/projects">Projects</a> • <a href="/blog" class="active">Blog</a></nav>
+    </div>
+  </header>
+
+  <main class="blog-page">
+    <section class="container">
+      <h1>AI & Web Development Insights</h1>
+      <p>Documenting my journey from web dev to AI engineering — lessons learned, tools explored, and strategies for building intelligent systems.</p>
+
+      <div class="blog-posts">
+        <article class="post-preview">
+          <a href="/blog/from-js-to-jax-learning-ai-in-2026.html">
+            <h2>From JS to JAX: Learning AI Engineering in 2026</h2>
+            <p>How I transitioned from frontend development to building production ML models with Python, TensorFlow, and cloud platforms.</p>
+            <div class="post-meta">
+              <span>February 25, 2026</span> • <span>12 min read</span> • <span>AI Career</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="post-preview">
+          <a href="/blog/why-full-stack-matters-for-ai-engineers.html">
+            <h2>Why Full-Stack Matters for AI Engineers</h2>
+            <p>The most successful AI systems aren't just models — they're complete products. Here's why understanding the full stack is crucial.</p>
+            <div class="post-meta">
+              <span>February 18, 2026</span> • <span>8 min read</span> • <span>AI Systems</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="post-preview">
+          <a href="/blog/building-a-production-ml-api-with-fastapi.html">
+            <h2>Building a Production ML API with FastAPI</h2>
+            <p>Step-by-step guide to creating a scalable, monitored, and version-controlled ML prediction service.</p>
+            <div class="post-meta">
+              <span>January 30, 2026</span> • <span>15 min read</span> • <span>MLOps</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="post-preview">
+          <a href="/blog/ethical-considerations-in-nlp-models.html">
+            <h2>Ethical Considerations in NLP Models</h2>
+            <p>How bias creeps into language models and what AI engineers can do to build fairer systems.</p>
+            <div class="post-meta">
+              <span>January 15, 2026</span> • <span>10 min read</span> • <span>AI Ethics</span>
+            </div>
+          </a>
+        </article>
+      </div>
+
+      <div class="pagination">
+        <a href="#" class="disabled">← Previous</a>
+        <span class="current-page">Page 1 of 3</span>
+        <a href="/blog/page2.html">Next →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Subscribe via <a href="https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fmuharemhuskic.dev%2Fblog%2Ffeed.xml">RSS</a> • © 2026 Muharem Huskić</p>
+    </div>
+  </footer>
+</body>
+</html>
