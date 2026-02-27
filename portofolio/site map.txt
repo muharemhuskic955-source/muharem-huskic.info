@@ -1,0 +1,10 @@
+portfolio/
+├── index.html # Home page
+├── about.html # Bio & learning roadmap
+├── projects.html # AI & web dev case studies
+├── blog/index.html # Static blog (optional)
+├── contact.html # Contact form
+├── styles.css # Global styles
+├── scripts.js # Interactive elements
+├── images/ # Assets
+└── _redirects # Netlify redirects
