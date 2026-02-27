@@ -1,0 +1,16 @@
+/muharemhuskic.dev/
+├── index.html
+├── about.html
+├── projects.html
+├── blog/
+│   └── index.html
+├── contact.html
+├── styles.css
+├── scripts.js
+└── images/
+    ├── muharem-headshot.jpg
+    ├── muharem-bio.jpg
+    ├── project-ai-chatbot.jpg
+    ├── project-cv-dashboard.jpg
+    ├── project-ml-api.jpg
+    └── profile-og.jpg
