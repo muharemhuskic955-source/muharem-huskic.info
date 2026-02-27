@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI & Full-Stack Projects by Muharem Huskić | Senior AI Engineer Portfolio</title>
+  <meta name="description" content="Explore Muharem Huskić's AI projects: NLP chatbots, computer vision dashboards, scalable ML APIs, and full-stack web applications. From prototype to production." />
+  <meta name="keywords" content="AI projects, machine learning portfolio, computer vision, NLP, full-stack projects, Python, TensorFlow, PyTorch, web development, MLOps" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <a href="/" class="logo">MH<span>.</span></a>
+      <nav>
+        <a href="/">Home</a> • <a href="/about">About</a> • <a href="/projects" class="active">Projects</a> • <a href="/blog">Blog</a> • <a href="/contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="projects-page">
+    <section class="container">
+      <h1>AI & Full-Stack Projects</h1>
+      <p>Each project represents a step in my journey to becoming a <strong>Senior AI Engineer</strong> — from experimental prototypes to production-grade systems. Filter by category below.</p>
+
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="ai">AI / ML</button>
+        <button class="filter-btn" data-filter="web">Full-Stack Web</button>
+        <button class="filter-btn" data-filter="cv">Computer Vision</button>
+        <button class="filter-btn" data-filter="nlp">NLP</button>
+      </div>
+
+      <div class="projects-grid" id="projects-container">
+        <!-- Project 1 -->
+        <article class="project-card ai nlp" data-date="2026-01">
+          <div class="project-header">
+            <img src="images/project-ai-chatbot.jpg" alt="AI Customer Support Chatbot with Rasa and React" loading="lazy" />
+            <div class="project-meta">
+              <span class="status live">LIVE</span>
+              <span class="date">Jan 2026</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>AI-Powered Customer Support Chatbot</h3>
+            <p>Custom NLP bot trained to handle product queries for e-commerce. Integrates with React frontend and Firebase backend. Achieved 85% query resolution without human intervention.</p>
+            <div class="tech-stack">
+              <span>Python</span> <span>Rasa</span> <span>React</span> <span>Firebase</span> <span>Spacy</span> <span>GCP</span>
+            </div>
+            <div class="metrics">
+              <div><strong>Users Served</strong>: 10k+</div>
+              <div><strong>Accuracy</strong>: 89%</div>
+              <div><strong>Uptime</strong>: 99.9%</div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/muharemhuskic/ai-support-bot" target="_blank">Code →</a>
+              <a href="https://demo.muharemhuskic.dev/chatbot" target="_blank">Live Demo →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card ai cv" data-date="2025-12">
+          <div class="project-header">
+            <img src="images/project-cv-dashboard.jpg" alt="Real-Time Object Detection Dashboard with YOLOv8" loading="lazy" />
+            <div class="project-meta">
+              <span class="status deployed">DEPLOYED</span>
+              <span class="date">Dec 2025</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Real-Time Object Detection Dashboard</h3>
+            <p>YOLOv8 model integrated with WebSocket streaming for live inference. Frontend built with React, backend in FastAPI. Monitored with Prometheus for model drift.</p>
+            <div class="tech-stack">
+              <span>YOLOv8</span> <span>OpenCV</span> <span>FastAPI</span> <span>React</span> <span>WebSockets</span> <span>Docker</span>
+            </div>
+            <div class="metrics">
+              <div><strong>Inference Speed</strong>: 40 FPS</div>
+              <div><strong>Detection Accuracy</strong>: 92%</div>
+              <div><strong>Latency</strong>: <100ms</div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/muharemhuskic/cv-dashboard" target="_blank">Code →</a>
+              <a href="https://demo.muharemhuskic.dev/cv" target="_blank">Live Demo →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card ai nlp" data-date="2025-11">
+          <div class="project-header">
+            <img src="images/project-ml-api.jpg" alt="Scalable ML Prediction API with BERT and FastAPI" loading="lazy" />
+            <div class="project-meta">
+              <span class="status archived">ARCHIVED</span>
+              <span class="date">Nov 2025</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Scalable ML Prediction API (Sentiment Analysis)</h3>
+            <p>BERT-based model served via REST API. Containerized with Docker, orchestrated on AWS ECS. Includes A/B testing framework and model versioning.</p>
+            <div class="tech-stack">
+              <span>PyTorch</span> <span>BERT</span> <span>FastAPI</span> <span>AWS ECS</span> <span>Docker</span> <span>Prometheus</span>
+            </div>
+            <div class="metrics">
+              <div><strong>Throughput</strong>: 10k req/min</div>
+              <div><strong>Response Time</strong>: <50ms</div>
+              <div><strong>Model Accuracy</strong>: 91%</div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/muharemhuskic/ml-sentiment-api" target="_blank">Code →</a>
+              <a href="#" class="disabled">Demo (Archived)</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card web" data-date="2025-10">
+          <div class="project-header">
+            <img src="images/project-fullstack-app.jpg" alt="E-commerce Platform with Payment Integration" loading="lazy" />
+            <div class="project-meta">
+              <span class="status live">LIVE</span>
+              <span class="date">Oct 2025</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Full-Stack E-commerce Platform</h3>
+            <p>Modern e-commerce site with cart, payment (Stripe), inventory management, and admin dashboard. Built with Next.js, Node.js, and PostgreSQL.</p>
+            <div class="tech-stack">
+              <span>Next.js</span> <span>Node.js</span> <span>PostgreSQL</span> <span>Stripe API</span> <span>Tailwind CSS</span> <span>Prisma ORM</span>
+            </div>
+            <div class="metrics">
+              <div><strong>Monthly Users</strong>: 5k</div>
+              <div><strong>Conversion Rate</strong>: 3.2%</div>
+              <div><strong>Page Load</strong>: <2s</div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/muharemhuskic/ecommerce-platform" target="_blank">Code →</a>
+              <a href="https://shop.muharemhuskic.dev" target="_blank">Live Site →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5 -->
+        <article class="project-card ai cv" data-date="2025-09">
+          <div class="project-header">
+            <img src="images/project-anomaly-detection.jpg" alt="Industrial Anomaly Detection System" loading="lazy" />
+            <div class="project-meta">
+              <span class="status deployed">DEPLOYED</span>
+              <span class="date">Sep 2025</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Industrial Anomaly Detection System</h3>
+            <p>CNN-based model to detect defects in manufacturing pipelines. Integrated with PLC sensors and dashboard for real-time alerts. Reduces manual inspection by 70%.</p>
+            <div class="tech-stack">
+              <span>TensorFlow</span> <span>OpenCV</span> <span>Python</span> <span>PLC Integration</span> <span>Flask</span> <span>Azure IoT</span>
+            </div>
+            <div class="metrics">
+              <div><strong>Defect Detection Rate</strong>: 94%</div>
+              <div><strong>False Positive Rate</strong>: <2%</div>
+              <div><strong>Deployment Time</strong>: 12 hours</div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/muharemhuskic/anomaly-detection-cnn" target="_blank">Code →</a>
+              <a href="https://demo.muharemhuskic.dev/anomaly" target="_blank">Dashboard →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 6 -->
+        <article class="project-card web" data-date="2025-08">
+          <div class="project-header">
+            <img src="images/project-dashboard.jpg" alt="Business Analytics Dashboard with D3.js" loading="lazy" />
+            <div class="project-meta">
+              <span class="status archived">ARCHIVED</span>
+              <span class="date">Aug 2025</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Interactive Business Analytics Dashboard</h3>
+            <p>Data visualization tool for KPIs with D3.js and real-time data fetching. Connected to PostgreSQL and Excel imports. Used by 20+ internal teams.</p>
+            <div class="tech-stack">
+              <span>React</span> <span>D3.js</span> <span>PostgreSQL</span> <span>Express</span> <span>Chart.js</span> <span>JWT Auth</span>
+            </div>
+            <div class="metrics">
+              <div><strong>Active Users</strong>: 25</div>
+              <div><strong>Data Points</strong>: 1M+</div>
+              <div><strong>Charts Rendered</strong>: 10 types</div>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/muharemhuskic955-source/analytics-dashboard" target="_blank">Code →</a>
+              <a href="#" class="disabled">Demo (Archived)</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // Simple filter script
+    document.querySelectorAll('.filter-btn').forEach(button => {
+      button.addEventListener('click', () => {
+        const filter = button.dataset.filter;
+        
+        // Update active button
+        document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+
+        // Show/hide projects
+        const projects = document.querySelectorAll('.project-card');
+        projects.forEach(project => {
+          if (filter === 'all' || project.classList.contains(filter)) {
+            project.style.display = 'block';
+          } else {
+            project.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Projects updated: February 2026 • <a href="/contact">Hire me for your next AI project</a></p>
+    </div>
+  </footer>
+</body>
+</html>
