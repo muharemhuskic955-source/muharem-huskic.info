@@ -1,0 +1,13 @@
+Performance Checklist
+Largest Contentful Paint (LCP) < 2.5s
+Optimize main content images/text
+Use efficient hosting (CDN)
+Minimize main thread work
+First Input Delay (FID) < 100ms
+Minimize JavaScript execution time
+Use requestIdleCallback for non-critical tasks
+Defer non-essential scripts
+Cumulative Layout Shift (CLS) < 0.1
+Always specify width and height attributes on images/video
+Avoid dynamically injected content without reservation
+Use transform and opacity for animations instead of layout properties
